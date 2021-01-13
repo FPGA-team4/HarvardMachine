@@ -1,0 +1,2 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,Calculator:calc|MUL:mul|lpm_mult:lpm_mult_component|mult_djm:auto_generated|mac_out2,

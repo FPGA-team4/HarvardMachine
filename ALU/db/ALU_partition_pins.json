@@ -1,0 +1,405 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ConditionFlagWriteOutput",
+					"strict" : false
+				},
+				{
+					"name" : "ProgramCounterOutput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ProgramCounterOutput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ProgramCounterOutput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ProgramCounterOutput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ProgramCounterOutput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ProgramCounterOutput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ProgramCounterOutput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ProgramCounterOutput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorWriteOutput[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DataWriteOutput[15]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[8]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[9]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[10]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[11]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[12]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[13]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[14]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputBinaryOutput[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clkInput",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DataReadInput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AccumulatorReadInput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OperandInput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OperandInput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OperandInput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OperandInput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OperandInput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputSelectorInput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputSelectorInput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputSelectorInput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ConditionFlagReadInput",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
