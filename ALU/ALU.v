@@ -82,8 +82,8 @@ module Calculator(Operand, ConditionFlagRead, AccumulatorRead, DataRead, Conditi
 			5'b00010:	interResult <= AccumulatorRead;												//LOAD
 			5'b00011:	interResult <= DataRead;														//STORE
 			5'b00100:	interEndFlagWrite <= 1'b1;														//EOP
-			5'b01000:	interConditionFlagWrite <= AccumulatorRead < DataRead;				//LT
-			5'b01001:	interConditionFlagWrite <= AccumulatorRead > DataRead;				//GT
+			5'b01000:	interConditionFlagWrite <= $signed(AccumulatorRead) < $signed(DataRead);				//LT
+			5'b01001:	interConditionFlagWrite <= $signed(AccumulatorRead) > $signed(DataRead);				//GT
 			5'b01100:	interResult <= DataRead;														//JUMP
 			5'b01101:	if(ConditionFlagRead)															//BEQ
 								interResult <= DataRead;
