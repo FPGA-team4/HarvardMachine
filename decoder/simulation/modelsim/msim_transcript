@@ -9,31 +9,31 @@
 # Copying /opt/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+/home/kakimotolab/Desktop/u {/home/kakimotolab/Desktop/u/DECODER.v}
+# vlog -vlog01compat -work work +incdir+/home/kakimotolab/workspace/HarvardMachine/decoder {/home/kakimotolab/workspace/HarvardMachine/decoder/DECODER.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:13:32 on Dec 27,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/kakimotolab/Desktop/u" /home/kakimotolab/Desktop/u/DECODER.v 
+# Start time: 12:23:55 on Jan 18,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/kakimotolab/workspace/HarvardMachine/decoder" /home/kakimotolab/workspace/HarvardMachine/decoder/DECODER.v 
 # -- Compiling module DECODER
 # 
 # Top level modules:
 # 	DECODER
-# End time: 01:13:33 on Dec 27,2020, Elapsed time: 0:00:01
+# End time: 12:23:55 on Jan 18,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+/home/kakimotolab/Desktop/u/simulation/modelsim {/home/kakimotolab/Desktop/u/simulation/modelsim/t.v}
+# vlog -vlog01compat -work work +incdir+/home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim {/home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim/t.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:13:33 on Dec 27,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/kakimotolab/Desktop/u/simulation/modelsim" /home/kakimotolab/Desktop/u/simulation/modelsim/t.v 
+# Start time: 12:23:55 on Jan 18,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim" /home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim/t.v 
 # -- Compiling module t
 # 
 # Top level modules:
 # 	t
-# End time: 01:13:33 on Dec 27,2020, Elapsed time: 0:00:00
+# End time: 12:23:55 on Jan 18,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  t
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" t 
-# Start time: 01:13:33 on Dec 27,2020
+# Start time: 12:23:55 on Jan 18,2021
 # Loading work.t
 # Loading work.DECODER
 # 
@@ -43,10 +43,10 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $stop    : /home/kakimotolab/Desktop/u/simulation/modelsim/t.v(78)
+# ** Note: $stop    : /home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim/t.v(78)
 #    Time: 2 us  Iteration: 0  Instance: /t
-# Break in Module t at /home/kakimotolab/Desktop/u/simulation/modelsim/t.v line 78
+# Break in Module t at /home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim/t.v line 78
 # 
 # stdin: <EOF>
-# End time: 01:15:08 on Dec 27,2020, Elapsed time: 0:01:35
+# End time: 12:24:29 on Jan 18,2021, Elapsed time: 0:00:34
 # Errors: 0, Warnings: 0

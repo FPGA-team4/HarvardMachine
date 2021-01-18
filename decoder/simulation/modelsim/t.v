@@ -5,22 +5,22 @@ module t  ;
   wire  [4:0]  OpecodeOutput   ; 
   reg    ClockInput   ; 
   wire    ClockOutput   ; 
-  wire  AccReadFlag   ; 
+  wire  AccReadFlagOutput   ; 
   reg  [15:0]  OperandInput   ; 
   reg    AddressingModeInput   ; 
   wire  [15:0]  OperandOutput   ; 
-  wire  [2:0]  OutputSelector   ; 
+  wire  [2:0]  OutputSelectorOutput   ; 
   reg  [4:0]  OpecodeInput   ; 
   DECODER  
    DUT  ( 
        .OpecodeOutput (OpecodeOutput ) ,
       .ClockInput (ClockInput ) ,
       .ClockOutput (ClockOutput ) ,
-      .AccReadFlag (AccReadFlag ) ,
+      .AccReadFlagOutput (AccReadFlagOutput ) ,
       .OperandInput (OperandInput ) ,
       .AddressingModeInput (AddressingModeInput ) ,
       .OperandOutput (OperandOutput ) ,
-      .OutputSelector (OutputSelector ) ,
+      .OutputSelectorOutput (OutputSelectorOutput ) ,
       .OpecodeInput (OpecodeInput ) ); 
 
 

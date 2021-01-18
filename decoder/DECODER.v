@@ -5,8 +5,8 @@ module DECODER(
 	input wire[15:0]	OperandInput,
 	
 	output reg[4:0]	OpecodeOutput,
-	output reg[2:0]	OutputSelector,
-	output reg			AccReadFlag,
+	output reg[2:0]	OutputSelectorOutput,
+	output reg			AccReadFlagOutput,
 	output reg[15:0]	OperandOutput,
 	
 	output wire			ClockOutput
@@ -22,15 +22,13 @@ module DECODER(
 	always @(posedge ClockInput) begin
 		OpecodeOutput[4:0] <= OpecodeInput[4:0];
 		
-		OutputSelector[2] <= (~a & ~b & ~c & ~d & e);
-		OutputSelector[1] <= ((~a & ~b & ~c & d & e) | (~a & b &c));
-		OutputSelector[0] <= ((a & ~b) | (~b & ~c & d));
+		OutputSelectorOutput[2] <= (~a & ~b & ~c & ~d & e);
+		OutputSelectorOutput[1] <= ((~a & ~b & ~c & d & e) | (~a & b &c));
+		OutputSelectorOutput[0] <= ((a & ~b) | (~b & ~c & d));
 		
-		AccReadFlag <= ((~a & b & ~c & ~d) | (~b & ~c & d & e) | (a & ~b));
+		AccReadFlagOutput <= ((~a & b & ~c & ~d) | (~b & ~c & d & e) | (a & ~b));
 		
 		OperandOutput[15:0] <= OperandInput[15:0];
 	end
 	
 endmodule
-	
-	
