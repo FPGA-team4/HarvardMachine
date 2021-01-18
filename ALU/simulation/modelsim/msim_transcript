@@ -1,0 +1,86 @@
+# Reading pref.tcl
+# do ALU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+G:/ALU {G:/ALU/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:54:46 on Jan 14,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/ALU" G:/ALU/ALU.v 
+# -- Compiling module ALU
+# -- Compiling module Calculator
+# -- Compiling module Selector
+# 
+# Top level modules:
+# 	ALU
+# End time: 14:54:46 on Jan 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/ALU {G:/ALU/DIV.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:54:47 on Jan 14,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/ALU" G:/ALU/DIV.v 
+# -- Compiling module DIV
+# 
+# Top level modules:
+# 	DIV
+# End time: 14:54:47 on Jan 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/ALU {G:/ALU/MUL.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:54:47 on Jan 14,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/ALU" G:/ALU/MUL.v 
+# -- Compiling module MUL
+# 
+# Top level modules:
+# 	MUL
+# End time: 14:54:47 on Jan 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+G:/ALU/simulation/modelsim {G:/ALU/simulation/modelsim/ALUtestbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:54:47 on Jan 14,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/ALU/simulation/modelsim" G:/ALU/simulation/modelsim/ALUtestbench.v 
+# -- Compiling module ALUtestbench
+# 
+# Top level modules:
+# 	ALUtestbench
+# End time: 14:54:48 on Jan 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  ALUtestbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" ALUtestbench 
+# Start time: 14:54:48 on Jan 14,2021
+# Loading work.ALUtestbench
+# Loading work.ALU
+# Loading work.Calculator
+# Loading work.MUL
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.DIV
+# Loading lpm_ver.lpm_divide
+# Loading work.Selector
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'div'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUtestbench/DUT/calc/div File: G:/ALU/ALU.v Line: 75
+# ** Warning: (vsim-3722) G:/ALU/ALU.v(75): [TFMPC] - Missing connection for port 'remain'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mod'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUtestbench/DUT/calc/mod File: G:/ALU/ALU.v Line: 76
+# ** Warning: (vsim-3722) G:/ALU/ALU.v(76): [TFMPC] - Missing connection for port 'quotient'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : G:/ALU/simulation/modelsim/ALUtestbench.v(104)
+#    Time: 2 us  Iteration: 0  Instance: /ALUtestbench
+# Break in Module ALUtestbench at G:/ALU/simulation/modelsim/ALUtestbench.v line 104
+# End time: 14:57:48 on Jan 14,2021, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 4

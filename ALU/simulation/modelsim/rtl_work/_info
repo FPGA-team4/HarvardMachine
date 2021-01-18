@@ -1,0 +1,161 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/ALU/simulation/modelsim
+vALU
+Z1 !s110 1610603686
+!i10b 1
+!s100 giEgHk61=NK9:Imn@9a:i1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5GZT[547lOY0@FB9k<7nh0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1610600554
+Z5 8G:/ALU/ALU.v
+Z6 FG:/ALU/ALU.v
+!i122 0
+L0 1 57
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1610603686.000000
+Z9 !s107 G:/ALU/ALU.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/ALU|G:/ALU/ALU.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+G:/ALU
+Z13 tCvgOpt 0
+n@a@l@u
+vALUtestbench
+!s110 1610603688
+!i10b 1
+!s100 G`KF6kchSOYzhz9bQUKTV2
+R2
+IB3AiOeEYQ]jV`Ro6Zmbb;3
+R3
+R0
+w1610603614
+8G:/ALU/simulation/modelsim/ALUtestbench.v
+FG:/ALU/simulation/modelsim/ALUtestbench.v
+!i122 3
+L0 3 103
+R7
+r1
+!s85 0
+31
+Z14 !s108 1610603687.000000
+!s107 G:/ALU/simulation/modelsim/ALUtestbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/ALU/simulation/modelsim|G:/ALU/simulation/modelsim/ALUtestbench.v|
+!i113 1
+R11
+!s92 -vlog01compat -work work +incdir+G:/ALU/simulation/modelsim
+R13
+n@a@l@utestbench
+vCalculator
+R1
+!i10b 1
+!s100 gCmZkJ1_=PQQ=8:f:H_K90
+R2
+I9QgYcKAmk997g7;]G9`Tn0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 61 47
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+n@calculator
+vDIV
+Z15 !s110 1610603687
+!i10b 1
+!s100 U6mBTjnS7_LBRTlJZa?=R1
+R2
+IA9UH@>M:RE3U_5ONaDXXY3
+R3
+R0
+w1610428312
+8G:/ALU/DIV.v
+FG:/ALU/DIV.v
+!i122 1
+L0 40 34
+R7
+r1
+!s85 0
+31
+R14
+!s107 G:/ALU/DIV.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/ALU|G:/ALU/DIV.v|
+!i113 1
+R11
+R12
+R13
+n@d@i@v
+vMUL
+R15
+!i10b 1
+!s100 jD4l;OYg@Pe[JTf1PDTcn2
+R2
+I=h_kjbgk7P;<Z?2coE9`E0
+R3
+R0
+w1610428278
+8G:/ALU/MUL.v
+FG:/ALU/MUL.v
+!i122 2
+L0 40 31
+R7
+r1
+!s85 0
+31
+R14
+!s107 G:/ALU/MUL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/ALU|G:/ALU/MUL.v|
+!i113 1
+R11
+R12
+R13
+n@m@u@l
+vSelector
+R1
+!i10b 1
+!s100 nBYiLMK=@e0NcNOEhfbe`2
+R2
+I7OEaFZKH5znK1^QEzLiE;1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 111 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+n@selector
