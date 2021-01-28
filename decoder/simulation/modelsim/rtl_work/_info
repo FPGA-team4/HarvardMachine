@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim
+vDECODER
+Z1 !s110 1610940235
+!i10b 1
+!s100 K[Ae986iS`l3kPDjH_SME1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=j@:`baQf9BXk3R[7LjIb1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1610940053
+8/home/kakimotolab/workspace/HarvardMachine/decoder/DECODER.v
+F/home/kakimotolab/workspace/HarvardMachine/decoder/DECODER.v
+!i122 0
+L0 1 34
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1610940235.000000
+!s107 /home/kakimotolab/workspace/HarvardMachine/decoder/DECODER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/kakimotolab/workspace/HarvardMachine/decoder|/home/kakimotolab/workspace/HarvardMachine/decoder/DECODER.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/home/kakimotolab/workspace/HarvardMachine/decoder
+Z7 tCvgOpt 0
+n@d@e@c@o@d@e@r
+vt
+R1
+!i10b 1
+!s100 0J9ENWYnYLbH@fO7523L92
+R2
+IdG`GmkB^d`8hD69Fb^PNc0
+R3
+R0
+w1610940188
+8/home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim/t.v
+F/home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim/t.v
+!i122 1
+L0 3 77
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim/t.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim|/home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim/t.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/kakimotolab/workspace/HarvardMachine/decoder/simulation/modelsim
+R7
